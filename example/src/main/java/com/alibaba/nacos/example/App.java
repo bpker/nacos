@@ -36,5 +36,7 @@ public class App {
         naming.registerInstance("nacos.test.3", "11.11.11.11", 8888, "TEST1");
         naming.registerInstance("nacos.test.3", "2.2.2.2", 9999, "DEFAULT");
         System.out.println(naming.getAllInstances("nacos.test.3"));
+
+        System.out.println("analyse");
     }
 }
